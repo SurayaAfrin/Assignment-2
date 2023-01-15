@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/* .................... common styles ................*/
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+.section-title {
+    font-weight: 900;
+    font-size: 30px;
+    color: #131313;
+}
+
+.btn {
+    padding: 15px 30px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    margin: 20px 0 50px 0;
+}
+
+/* ................ header section .................. */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+    padding-bottom: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+
+.navbar .logo {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #131313;
+}
+
+.menu ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    padding-right: 25px;
+}
+
+.banner {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+.banner-info {
+    margin: 0 auto;
+}
+
+.banner-info .banner-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.banner-info .banner-description {
+    font-weight: 400;
+    font-size: 13px;
+    color: #727272;
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.banner .banner-image img {
+    width: 1150px;
+    height: 550px;
+}
+
+/* team section */
+.teams {
+    display: flex;
+    margin: 50px 300px;
+}
+
+.teams-pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.teams-pictures img {
+    width: 250px;
+    height: 250px;
+}
+
+.teams-info {
+    padding-left: 50px;
+    padding-top: 150px;
+}
+
+.teams-info .bold {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.teams-info .blurred {
+    color: #727272;
+    font-size: 22px;
+}
+
+.teams-info .colored {
+    color: #FF900E;
+    font-size: 22px;
+}
+
+.teams-info p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #727272;
+}
+
+/* ............ features section .............. */
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 80px 150px -50px 180px;
+}
+
+.features-description {
+    padding-right: 100px;
+}
+
+.features .section-title h3::before {
+    content: "";
+    width: 3px;
+    height: 85px;
+    background: #FF900E;
+    float: left;
+    margin-right: 10px;
+}
+
+.features .features-description-des {
+    font-weight: 400;
+    font-size: 13px;
+    color: #727272;
+}
+
+.features-item .item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.features .features-item-title {
+    font-weight: 600;
+    font-size: 13px;
+    color: #131313;
+    padding-left: 15px;
+}
+
+.features .features-item-description {
+    font-weight: 400;
+    font-size: 12px;
+    color: #727272;
+    padding-left: 15px;
+}
+
+.features-image img {
+    width: 450px;
+    height: 680px;
+    padding-left: 25px;
+}
+
+.feature-section .btn-experience {
+    padding: 25px 30px;
+    background: #FF900E;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 50px;
+    position: relative;
+    bottom: 40px;
+    left: 780px;
+}
+
+.feature-section .btn-experience span {
+    font-size: 13px;
+    font-weight: 200px;
+}
+
+/* ............. facts section ............. */
+.facts {
+    margin: 0 150px;
+}
+
+.facts-description {
+    font-weight: 400;
+    width: 500px;
+    font-size: 13px;
+    color: #727272;
+    margin-bottom: 0;
+}
+
+.facts-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.facts-item:hover {
+    transform: scale(1.25) rotate(-15deg);
+    transition: all 1s ease-in-out;
+    background-color: peru;
+}
+
+.facts-item {
+    height: 160px;
+    width: 160px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    margin: 70px 30px;
+}
+
+.facts-item .item {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.facts-item .item .number {
+    font-weight: 600;
+    font-size: 25px;
+    color: #424242;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.facts-item .item .info {
+    font-weight: 600;
+    font-size: 13px;
+    color: #727272;
+    margin: 0;
+}
+
+/* ........... sponsor section ............ */
+.sponsors {
+    margin: 50px 170px;
+}
+
+.sponsors .sponsor-info {
+    text-align: center;
+}
+
+.sponsors .sponsor-description {
+    font-weight: 400;
+    font-size: 13px;
+    color: #727272;
+    width: 350px;
+    margin: 0 auto 50px;
+}
+
+.sponsor-image {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sponsor-image .grey {
+    filter: grayscale(100%);
+}
+
+/* ............. footer section .............. */
+.footer {
+    width: 1200px;
+    height: 70px;
+    background: #FFF4E7;
+    margin: 80px auto;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 25px;
+    color: #424242;
+}
+
+/* ............ contact section ............ */
+.contact{
+    margin: 100px 400px;
+}
+.contact .section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-info h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact-info p{
+    color: #FF900E;
+    font-weight: bold;
+}
+input{
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FF900E;
+}
+textarea{
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #FF900E;
+}
